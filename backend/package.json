@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "module": "src/index.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prisma": "^5.15.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.15.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "scripts": {
+    "dev": "bun --watch ."
+  }
+}
